@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USD to CAD Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <!-- Heading Section -->
+    <div class="heading">
+        <h1>US Dollar to Canadian Dollar.</h1><br>
+        <p>Convert USD to CAD at the real exchange rate</p>
+    </div>
+
+    <!-- Form Section -->
+    <form>
+        <!-- First Section for Amount Input -->
+        <div class="Section1">
+            <label for="Amount">Amount</label>
+            <input type="number" id="number" name="number" min="1" max="10000000">
+            <div class="section1-1">
+                <select name="currency-one" id="currency-one">
+                    <option value="USD">USD</option>
+                    <option value="CAD">CAD</option>
+                </select>
+            </div>
+        </div>
+        <!-- Exchange Icon -->
+        <i class="fas fa-exchange-alt" alt="arrow" id="swap"></i>
+        
+        <!-- Second Section for Converted Amount Input -->
+        <div class="Section2">
+            <label for="Converted_to">To</label>
+            <input type="number" id="number1" name="number1" size="10px">
+            <div class="section2-1">
+                <select name="currency-two" id="currency-two">
+                    <option value="CAD">CAD</option>
+                    <option value="USD">USD</option>
+                </select>
+            </div>
+        </div>
+        <!-- Rate and Conversion Button -->
+        <div class="ovalbutton">
+            <p id="rate"></p>
+            <button type="button" id="convert">Convert</button>
+        </div>
+    </form>
+
+    <script src="java.js"></script>
+</body>
+</html>

@@ -1,0 +1,110 @@
+/* Styles for the heading section */
+.heading {
+    background-color: #37507e;
+    color: white;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+/* Styles for the label section */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styles for input fields */
+input[type="number"] {
+    padding: 13px;
+    justify-content: center;
+}
+
+/* Styles for conversion button */
+.ovalbutton {
+    display: flow-root;
+    align-items: center;
+    margin-left: 20px;
+}
+
+button {
+    border-radius: 50%;
+    padding: 10px 20px;
+    background-color: #3b527d;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+/* Styles for the first section */
+.Section1 {
+    display: inline-flex;
+    align-items: first baseline;
+    border: transparent;
+    vertical-align: top;
+}
+
+/* Styles for the section 1-1 */
+.section1-1 {
+    display: flex;
+    padding: 12px;
+    margin-left: -1%;
+    align-items: first baseline;
+    background-color: #37507e;
+    width: 35%;
+    height: auto;
+}
+
+/* Styles for the exchange icon */
+.fa-exchange-alt {
+    margin: 20px;
+    color: aqua;
+    cursor: pointer; /* Add cursor pointer to indicate it's clickable */
+}
+
+/* Styles for the second section */
+.Section2 {
+    display: inline-flex;
+    align-items: first baseline;
+}
+
+/* Styles for the .section2-1 */
+.section2-1 {
+    display: flex;
+    margin: -15%;
+    align-items: first baseline;
+    background-color: #37507e;
+    padding: 12px;
+    width: 30%;
+    height: 28px;
+}
+
+/* Hover effect for the oval button */
+.ovalbutton button:hover {
+    box-shadow: 0 0 20px rgb(0, 64, 255); 
+}
+
+/* Styles for select dropdowns */
+select {
+    background-color: #37507e;
+    color: white; /* Change text color to ensure readability */
+    border: none; /* Remove default border */
+    padding: 5px; /* Add padding for better appearance */
+}
+
+/* Hover effect for buttons */
+button:hover {
+    background-color: #013086;
+}
+
+/* Align images vertically */
+img {
+    vertical-align: middle; /* Align the images vertically */
+}
+
+/* Ensure the flag images have appropriate dimensions */
+.flag-img {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+}
